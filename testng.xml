@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Google Apps">
+    <test name="Regression">
+        <classes>
+            <class name="tests.checkHomePageImage"/>
+            <class name="tests.printAllVeterinarians"/>
+            <class name="tests.printAllOwners"/>
+            <class name="tests.addOwner"/>
+        </classes>
+    </test>
+</suite>
